@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>sound</title>
+  </head>
+  <body>
+    <h1>sound</h1>
+    <audio src="./tada.mp3" autoPlay></audio>
+    <button onclick="play()">play</button>
+    <script defer>
+      document.addEventListener("DOMContentLoaded", () => {
+        const audio = document.querySelector("audio");
+        audio.play();
+      });
+
+      function play() {
+        const audio = document.querySelector("audio");
+        audio.play();
+      }
+    </script>
+  </body>
+</html>
